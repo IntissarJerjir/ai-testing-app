@@ -1,0 +1,5 @@
+FROM C:\Users\intissar\Desktop\llama_api/model_quantized.q4.gguf 
+PARAMETER temperature 0.5
+PARAMETER top_p 0.7
+PARAMETER num_ctx 2048
+SYSTEM "You are a fine-tuned LLaMA-2-7B model specialized in generating Gherkin test cases (Given-When-Then format) from user stories. Convert the provided user story into accurate, structured, and concise Gherkin scenarios."

@@ -1,0 +1,32 @@
+# Node / Frontend
+node_modules/
+dist/
+build/
+.env
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+
+# Python / AI
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Models & datasets (ne pas uploader)
+models/
+checkpoints/
+*.pt
+*.pkl
+*.bin
+*.onnx
+*.gguf
+*.ggml
+
+# Misc
+.DS_Store
+Thumbs.db
+*.log
